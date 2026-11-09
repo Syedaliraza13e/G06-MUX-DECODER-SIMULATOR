@@ -1,0 +1,140 @@
+
+/* General Page Design */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+    padding: 20px;
+}
+
+/* Header Design */
+header {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+/* Main Container */
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Input Area Design */
+.input-area {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid #cbd5e1;
+}
+
+.input-area h2 {
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #94a3b8;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* Button Design */
+button {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+
+
+/* Result Area Design */
+.result-area {
+    background-color: white;
+    padding: 30px;
+    border: 2px solid #16a34a;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    min-height: 250px;
+}
+
+.result-area h2 {
+    color: #15803d;
+    margin-bottom: 25px;
+}
+
+.result-area p {
+    background-color: #dcfce7;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 6px;
+    min-height: 60px;
+    font-size: 17px;
+}
+
+
+.result-area h2 {
+    color: #15803d;
+    margin-bottom: 15px;
+}
+
+.result {
+    background-color: #dcfce7;
+    padding: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 25px;
+    color: #64748b;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    .input-area,
+    .result-area {
+        padding: 15px;
+    }
+}
