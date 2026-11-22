@@ -48,3 +48,14 @@ console.log(muxWithCheck("1", "0", "1", "0", "1", "0"));
 console.log(muxWithCheck("1", "", "1", "0", "1", "0"));
 console.log(muxWithCheck("1", "0", "5", "0", "1", "0"));
 console.log(muxWithCheck("1", "0", "abc", "0", "1", "0"));
+function runMux() {
+    let d0 = document.getElementById("d0").value;
+    let d1 = document.getElementById("d1").value;
+    let d2 = document.getElementById("d2").value;
+    let d3 = document.getElementById("d3").value;
+    let s1 = document.getElementById("s1").value;
+    let s0 = document.getElementById("s0").value;
+
+    let answer = muxWithCheck(d0, d1, d2, d3, s1, s0);
+    document.getElementById("muxResult").innerText = "Output: " + answer;
+}
